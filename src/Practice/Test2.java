@@ -56,7 +56,7 @@ public class Test2 {
 
         System.out.println("String method result: " + objAB.str());
 
-        System.out.println("Boolean method result: " + objAB.boolMethod());
+       // System.out.println("Boolean method result: " + objAB.boolMethod());
 
         System.out.println("Float method result: " + objAB.floatMethod());
 
@@ -127,13 +127,7 @@ public class Test2 {
     }
 
 
-    public Boolean boolMethod()
-    {
-        Boolean abc = false;
-        return abc;
-    }
-
-
+   
     public float floatMethod(){
 
         float m= (float) 20.897;
